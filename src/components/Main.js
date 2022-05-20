@@ -7,6 +7,8 @@ class Main extends Component {
     return (
       <div id="content" className="mt-3">
 
+          <p className='text-muted text-center'><b>Address: </b>{this.props.account}</p>
+
         <table className="table table-borderless text-muted text-center">
           <thead>
             <tr>

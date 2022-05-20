@@ -113,6 +113,7 @@ class App extends Component {
         dappTokenBalance={this.state.dappTokenBalance}
         stakingBalance={this.state.stakingBalance}
         stakeTokens={this.stakeTokens}
+        account={this.state.account}
         unstakeTokens={this.unstakeTokens}
       />
     }
